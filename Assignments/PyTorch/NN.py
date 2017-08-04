@@ -1,4 +1,4 @@
-# Code in file autograd/two_layer_net_autograd.py
+#This is a basic code I have written for a 2 layer net using autograd
 import torch
 from torch.autograd import Variable
 
@@ -50,6 +50,3 @@ for t in range(500):
   # Manually zero the gradients 
   w1.grad.data.zero_()
   w2.grad.data.zero_()
-
-
-
